@@ -16,6 +16,13 @@ int main(){
     int *ptr = &n;
     std::cout<< ptr << std::endl;
 
+
+    std::cout<< n <<std::endl;
+    std::cout<< *ptr << std::endl;
+
+    *ptr = 50;
+    // ptr = 50; -> lvalue error
+
     std::cout<<"----------------------------------------"<<std::endl;
 
     std::cout<< n <<std::endl;
